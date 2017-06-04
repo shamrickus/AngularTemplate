@@ -1,7 +1,11 @@
-(function() {
-	'use strict';
+import * as angular from 'angular';
+import * as angularAnimate from 'angular-animate';
+import * as angularMaterial from 'angular-material';
 
+import 'angular-material/angular-material.min.css';
+import './app.scss';
 
-	var app = angular.module('mainApp', ['ngMaterial', 'ngMessages', 'ngAnimate']);
-
-})();
+export const app = angular.module('mainApp', [
+	angularMaterial,
+	angularAnimate
+]);
