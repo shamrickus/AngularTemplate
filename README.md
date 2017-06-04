@@ -1,5 +1,5 @@
 # angularTemplate
-Angular 1.5 template using npm, gulp, Typescript, Scss, Angular
+Angular 1.5 template using npm, gulp, Typescript, Scss, Angular, and Webpack
 
 ## Dependencies
 Requires:
