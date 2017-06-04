@@ -1,5 +1,5 @@
 # angularTemplate
-Angular 2 template using npm, gulp, Typescript, Scss, Angular
+Angular 1.5 template using npm, gulp, Typescript, Scss, Angular
 
 ## Dependencies
 Requires:
@@ -18,5 +18,7 @@ And you'll be all set up!
 
 To unlink to this repo make sure to run
 `git remote remove origin`
+
+You will also need to update the Readme/License!
 
 
