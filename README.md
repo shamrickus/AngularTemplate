@@ -9,15 +9,12 @@ Requires:
 ## Setup
 In the console of your choosing run the following
 ```
-git clone https://github.com/shamrickus/angularTemplate.git
+git clone --depth 1 https://github.com/shamrickus/angularTemplate.git
 cd angularTemplate/
 npm install
 gulp
 ```
 And you'll be all set up!
-
-To unlink to this repo make sure to run
-`git remote remove origin`
 
 You will also need to update the Readme/License!
 
