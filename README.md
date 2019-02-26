@@ -1,5 +1,5 @@
 # AngularTemplate
-Angular 6 template using Angular CLI and Angular Material
+Angular 7 template using Angular CLI and Angular Material
 
 ## Dependencies
 Requires:
