@@ -3,12 +3,14 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "ng": "./node_modules/.bin/ng",
+    "start": "./node_modules/.bin/ng serve",
+    "build": "./node_modules/.bin/ng build",
+    "test": "./node_modules/.bin/ng test",
+    "servertest": "./node_modules/.bin/ng test --single-run --reporters=teamcity",
+    "lint": "./node_modules/.bin/ng lint",
+    "e2e": "./node_modules/.bin/ng e2e",
+    "audit": "./node_modules/.bin/npm-audit-ci --moderate"
   },
   "private": true,
   "dependencies": {
@@ -47,7 +49,10 @@
     "karma-coverage-istanbul-reporter": "^1.2.1",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
+    "karma-teamcity-reporter": "^1.1.0",
+    "npm-audit-ci": "^1.2.0",
     "protractor": "^5.4.2",
+    "puppeteer": "^1.15.0",
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
     "typescript": "3.2.4"
