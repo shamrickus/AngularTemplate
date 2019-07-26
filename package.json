@@ -27,7 +27,6 @@
     "@angular/router": "8.1.2",
     "core-js": "^2.4.1",
     "linqts": "^1.10.0",
-    "npm-audit-reporter-teamcity": "^0.2.3",
     "rxjs": "^6.1.0",
     "zone.js": "~0.9.1"
   },
@@ -47,7 +46,7 @@
     "karma-cli": "~1.0.1",
     "karma-jasmine": "~1.1.0",
     "karma-teamcity-reporter": "^1.1.0",
-    "npm-audit-ci": "^1.2.0",
+    "npm-audit-reporter-teamcity": "^0.2.3",
     "protractor": "^5.4.2",
     "puppeteer": "^1.15.0",
     "ts-node": "~3.2.0",
