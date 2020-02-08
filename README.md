@@ -17,8 +17,11 @@ All `*.sh` scripts are used for building on a CI server.
 ## Setup
 In the console of your choosing run the following
 ```
-git clone --depth 1 https://github.com/shamrickus/angularTemplate.git
-cd AngularTemplate/
+git clone --depth 1 https://github.com/shamrickus/angularTemplate.git {projectName}
+cd {projectName}
+sed -i "s/template/{projectName}/g" angular.json
+sed -i "s/prefix": "app"/prefix": "{projectPrefix}" angular.json
+git remote set-url origin {path/to/repo}
 npm install
 ng serve
 ```
