@@ -4,7 +4,7 @@ Lint: &nbsp;&nbsp;&nbsp;[![Lint Status](https://ic.superphage.org/app/rest/build
 Audit: &nbsp;[![Audit Status](https://ic.superphage.org/app/rest/builds/buildType:\(id:AngularTemplate_Audit\)/statusIcon)](https://ic.superphage.org/viewType.html?buildTypeId=AngularTemplate_Audit&guest=1) <br />
 
 # AngularTemplate
-Angular 8 template using Angular CLI and Angular Material
+Angular 9 template using Angular CLI and Angular Material
 
 ## Dependencies
 Requires:
